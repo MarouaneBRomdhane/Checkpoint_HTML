@@ -3,54 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Your Portfolio</title>
+    <style>
+        /* Add your CSS styles here */
+    </style>
 </head>
 <body>
     <header>
-        <h1>My Portfolio</h1>
         <nav>
             <ul>
-                <li><a href="about">About Me</a></li>
-                <li><a href="#projects">Projects</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#resume">Resume</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p> Motion graphic, graphic design, video editing, sound editing, color grading.</p>
+    <section id="home">
+        <h1>Welcome to My Portfolio</h1>
+        <p>This is the home section of my portfolio.</p>
     </section>
 
-    <section id="projects">
-        <h2>Projects</h2>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Insert your about me content here.</p>
+    </section>
+
+    <section id="work">
+        <h2>My Work</h2>
         <ul>
-            <li><a href="project1.html">Project 1</a></li>
-            <li><a href="project2.html">Project 2</a></li>
-            <!-- Add more project links as needed -->
+            <li><a href="#">Project 1</a></li>
+            <li><a href="#">Project 2</a></li>
+            <li><a href="#">Project 3</a></li>
         </ul>
     </section>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Contact me using the form below:</p>
-        <form action="submit_form.php" method="post">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="4" required></textarea>
-
-            <button type="submit">Submit</button>
-        </form>
+    <section id="resume">
+        <h2>My Resume</h2>
+        <table>
+            <tr>
+                <th>Education</th>
+                <td>Insert your education details here</td>
+            </tr>
+            <tr>
+                <th>Experience</th>
+                <td>Insert your work experience here</td>
+            </tr>
+        </table>
     </section>
 
-    <section>
-        <h2>YouTube Video</h2>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/SidaY53R4K0?si=ndFj6242r_jvTEPu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+            
+            <input type="submit" value="Submit">
+        </form>
     </section>
 
     <footer>
