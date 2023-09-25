@@ -1,0 +1,96 @@
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Sections */
+section {
+    text-align: center;
+    padding: 40px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+/* Work Section */
+#work ul {
+    list-style: none;
+    padding: 0;
+}
+
+#work ul li {
+    margin-bottom: 10px;
+}
+
+#work ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Resume Section */
+#resume table {
+    margin: 0 auto;
+}
+
+#resume th {
+    text-align: left;
+}
+
+/* Contact Section */
+#contact label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#contact input[type="submit"] {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
